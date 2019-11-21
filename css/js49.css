@@ -1,0 +1,41 @@
+#ct{
+		 width: 590px;
+		 height:550px;/* 550 */
+		 background: 4px green solid;
+		 position: relative;
+		 overflow: hidden;
+	  }
+	  .ctbox{
+	  	width:590px;
+	  	height: 490px;
+	  	position: absolute;
+	  	top:0px;
+		}
+		#ct .c1{
+			top:0;
+			transition: 3s;
+		}
+		#ct .c2{
+			top:490px;
+			transition: 3s;
+		}
+		#ct .c3{
+			top:510px;
+			transition: 3s;
+		}
+		#ct .c4{
+			top:530px;
+			transition: 3s;
+		}
+	  #ct .c1 .title{
+			background: rgb(0,0,127);
+		}
+		#ct .c2 .title{
+			background: rgb(238,136,0);
+		}
+		#ct .c3 .title{
+			background: rgb(126,127,0);
+		}
+		#ct .c4 .title{
+			background: rgb(35,97,173);
+		}
